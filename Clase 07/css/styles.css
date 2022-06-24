@@ -1,0 +1,62 @@
+html {
+  background-image: url(/img/imgBackround.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Playfair Display", serif;
+}
+#imgBackround {
+  width: 100%;
+  height: 100%;
+  background: no-repeat;
+}
+nav {
+  background-color: rgb(192, 149, 21);
+  width: 100%;
+}
+.title {
+  display: flex;
+  font-size: 20px;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+}
+.linksYLogo {
+  display: flex;
+  justify-content: flex-start;
+}
+#linkLogo {
+  height: 10%;
+  width: 9%;
+}
+#imgLogo {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.divLinks {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.links {
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+  background-color: rgba(103, 5, 5, 0.221);
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 20px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
